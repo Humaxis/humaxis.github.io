@@ -1,0 +1,11 @@
+#page-brackground {
+    background-image: url("/images/pics/adults.jpg");
+}
+
+#sidebar-bg, nav.tabs li {
+    background-color: rgba(101, 214, 103, 0.2);
+}
+
+nav.tabs li.selected a, nav.tabs li:hover a {
+    border-top: 3px solid rgba(0, 80, 0, 0.8);
+}

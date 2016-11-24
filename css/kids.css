@@ -1,0 +1,11 @@
+#page-brackground {
+    background-image: url("/images/pics/kids.jpg");
+}
+
+#sidebar-bg, nav.tabs li {
+    background-color: rgba(255, 248, 98, 0.2);
+}
+
+nav.tabs li.selected a, nav.tabs li:hover a {
+    border-top: 3px solid rgba(202, 193, 0, 0.8);
+}

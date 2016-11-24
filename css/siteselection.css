@@ -1,0 +1,106 @@
+body {
+    min-width: 800px;
+}
+
+#page-brackground {
+    background-image: url("/images/pics/wartezimmer.jpg");
+    background-position: bottom right;
+}
+
+#logo-container {
+    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%,rgba(255,255,255,0.7) 30%,rgba(255,255,255,0) 70%,rgba(255,255,255,0) 100%);
+    margin: auto;
+    margin-top: 0;
+    width: 400px;
+    height: 167px;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+#welcome {
+    font-size: 27px;
+    font-weight: bold;
+    color: #6d0000;
+    text-align: center;
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.5);
+}
+
+#welcome a {
+    font-weight: normal;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#selector-container {
+    max-width: 792px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.selector-bg {
+    width: 300px;
+    float: left;
+    margin: 48px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.site-selector {
+    display: block;
+    height: inherit;
+    width: inherit;
+    background-color: rgba(255,255,255,0.5);
+    margin: 0;
+    top: 0;
+    height: 200px;
+    min-height: 0;
+}
+
+.selector-bg.kids {
+    box-shadow: inset -10px -10px 50px 10px rgba(255, 248, 98, 1);
+    background-image: url("/images/pics/kids.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.selector-bg.adults {
+    box-shadow: inset -10px -10px 50px 10px rgba(101, 214, 103, 1);
+    background-image: url("/images/pics/adults.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.site-selector-label {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    text-align: right;
+    font-size: 27px;
+    font-weight: bold;
+    color: #6d0000;
+    text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
+}
+
+#general-navi {
+    clear: left;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#general-navi ul {
+    display: block;
+    padding: 0;
+    margin: auto;
+}
+
+#general-navi li {
+    display: inline-block;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.75);
+}
+
+#copyright {
+    position: relative;
+    margin-bottom: 80px;
+}

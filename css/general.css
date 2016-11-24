@@ -1,0 +1,11 @@
+#page-brackground {
+    background-image: url("/images/pics/general.jpg");
+}
+
+#sidebar-bg, nav.tabs li {
+    background-color: rgba(109, 0, 15, 0.15);
+}
+
+nav.tabs li.selected a, nav.tabs li:hover a {
+    border-top: 3px solid rgba(109, 0, 15, 0.8);
+}
