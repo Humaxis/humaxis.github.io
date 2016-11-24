@@ -19,7 +19,7 @@ img {
 }
 
 a:active, a:link, a:visited, a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: inherit;
 }
 
@@ -241,6 +241,7 @@ nav.tabs a {
     font-size: 17px;
     text-align: center;
     vertical-align: middle;
+    text-decoration: none;
 }
 
 nav.tabs li.twolines a {
@@ -336,6 +337,7 @@ nav.sidenavi a, #general-navi li a {
     border-bottom-width: 1px;
     border-top-width: 1px;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 nav.sidenavi i, #general-navi i {
