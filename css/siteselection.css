@@ -15,7 +15,7 @@ body {
     height: 167px;
     text-align: center;
     padding: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 #welcome {
@@ -32,19 +32,29 @@ body {
     font-style: italic;
 }
 
+#addressline {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#choosearea {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
 #selector-container {
-    max-width: 792px;
+    max-width: 680px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
 }
 
 .selector-bg {
     width: 300px;
     float: left;
-    margin: 48px;
+    margin: 20px;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .site-selector {
@@ -86,7 +96,7 @@ body {
 #general-navi {
     clear: left;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #general-navi ul {

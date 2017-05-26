@@ -203,6 +203,12 @@ h3 {
     color: #6d0000;
 }
 
+#copyright .tinyurls, #copyright .tinyurls a {
+    font-size: 3px;
+    text-decoration: none;
+    opacity: 0.1;
+}
+
 nav.tabs {
     color: #6d0000;
     margin-right: 25px;
