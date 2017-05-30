@@ -156,11 +156,11 @@ h3 {
 #header-content {
     position: absolute;
     right: 15px;
-    top: 30px;
+    top: 35px;
     font-size: 16px;
     vertical-align: middle;
     text-align: left;
-    width: 310px;
+    width: 300px;
     color: #6d0000;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
