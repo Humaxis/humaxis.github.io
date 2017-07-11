@@ -27,9 +27,7 @@ body {
 }
 
 #welcome a {
-    font-weight: normal;
-    text-decoration: underline;
-    font-style: italic;
+    text-decoration: none;
 }
 
 #addressline {
