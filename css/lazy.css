@@ -1,0 +1,21 @@
+#lawn {
+    background-image: url("/images/lawn.png");
+}
+
+#page-brackground {
+    background-image: url("/images/pics/wartezimmer.jpg");
+}
+
+.selector-bg.kids {
+    box-shadow: inset -10px -10px 50px 10px rgba(255, 248, 98, 1);
+    background-image: url("/images/pics/kids.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.selector-bg.adults {
+    box-shadow: inset -10px -10px 50px 10px rgba(101, 214, 103, 1);
+    background-image: url("/images/pics/adults.jpg");
+    background-size: cover;
+    background-position: center center;
+}

@@ -4,7 +4,7 @@ html {
 
 body, input, button, textarea {
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
     padding: 0;
 }
@@ -42,7 +42,7 @@ h1 i, h2 i, h3 i {
 }
 
 h2 {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 h3 {
@@ -97,7 +97,6 @@ h3 {
     right: 0;
     height: 80px;
     z-index: 3;
-    background-image: url("/images/lawn.png");
     background-repeat: repeat-x;
 }
 
@@ -369,7 +368,6 @@ nav.sidenavi i, #general-navi i {
 }
 
 nav.sidenavi li.kids {
-    /*background-image: url("/images/pics/kids.jpg");*/
     background-size: cover;
     background-position: center center;
 }
@@ -379,7 +377,6 @@ nav.sidenavi li.kids a {
 }
 
 nav.sidenavi li.adults {
-    /*background-image: url("/images/pics/adults.jpg");*/
     background-size: cover;
     background-position: center center;
 }
