@@ -153,6 +153,13 @@ h3 {
     height: 197px;
 }
 
+#header-logo {
+    width: 400px;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 #header-content {
     position: absolute;
     right: 15px;
@@ -463,4 +470,89 @@ form button {
 
 .gotcha {
     display: none;
+}
+
+@media screen and (max-width: 600px) {
+    #page-container {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    #page-content {
+        padding-bottom: 50px;
+        font-size: 150%;
+    }
+
+    nav.subnavi {
+        font-size: 130%;
+    }
+
+    #page-content h2, #page-content h3, #page-content h4 {
+        font-size: 100%;
+    }
+
+    #page-content-container {
+        margin-right: 0;
+    }
+
+    #sidebar-bg {
+        display: none;
+    }
+
+    #fixed-container {
+        display: none;
+    }
+
+    #border-top-right-corner {
+        display: none;
+    }
+
+    nav.tabs {
+        margin-right: 0;
+    }
+
+    nav.tabs ul {
+        display: block;
+    }
+
+    #copyright {
+        right: 0;
+    }
+
+    nav.tabs a, nav.tabs li {
+        border-radius: 0;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    #header-content {
+        position: relative;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        padding: 15px;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: -10px;
+        width: auto;
+    }
+
+    #header-logo {
+        width: 100%;
+        margin: 0;
+    }
+
+    #page-header {
+        height: auto;
+    }
+
+    #contentimages {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 50px;
+    }
 }
