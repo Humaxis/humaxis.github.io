@@ -7,7 +7,6 @@
         <title>humaxis - Humaxis - Ergotherapie & Beratung in Hannover, Südstadt, Sallstr. - Kontakt</title>
         <meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta http-equiv="last-modified" content="25-May-17">
 <meta http-equiv="cache-control" content="Public">
 <meta http-equiv="expires" content="600">
 <meta name="format-detection" content="telephone=yes">
@@ -100,13 +99,10 @@
 }
 </script>
         <link rel="shortcut icon" href="/images/humax.png">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link href="/lib/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
-        <link href="/lib/flickity/flickity.css" rel="stylesheet">
-        <link href="/css/main.css" rel="stylesheet" />
-        <link href="/css/general.css" rel="stylesheet" />
-        <link href="/css/colors.css" rel="stylesheet" />
-        <script type="text/javascript" src="/lib/jquery-3.1.1.min.js"></script>
+        <link href="/lib/flickity/flickity.css" rel="stylesheet" type="text/css">
+        <link href="/css/main.css" rel="stylesheet" type="text/css">
+        <link href="/css/general.css" rel="stylesheet" type="text/css">
+        <link href="/css/colors.css" rel="stylesheet" type="text/css">
         <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -168,13 +164,6 @@
 
     <div style="clear: both;"></div>
 </div>
-
-<script type="text/javascript">
-    $(function() {
-        $css = $('<link rel="stylesheet" type="text/css" />').attr("href", "/css/lazy_general.css")
-        $("head").append($css);
-    });
-</script>
                 </div>
                 <div id="sidebar-bg"></div>
             </div>
@@ -234,13 +223,18 @@
         <div id="lawn-overlay"></div>
         <div id="lawn"></div>
 
-        <script type="text/javascript">
-    $(function() {
-        $css = $('<link rel="stylesheet" type="text/css" />').attr("href", "/css/lazy.css")
-        $("head").append($css);
-    });
-</script>
-
+        <noscript id="deferred-styles">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+            <link href="/lib/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+            <link href="/css/lazy.css" rel="stylesheet" type="text/css">
+            
+                
+                    <link href="/css/lazy_general.css" rel="stylesheet" type="text/css">
+                
+            
+        </noscript>
+        <script type="text/javascript" src="/scripts/deferred-styles.js"></script>
+        <script type="text/javascript" src="/lib/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="/lib/flickity/flickity.pkgd.min.js"></script>
         <script type="text/javascript" src="/lib/flickity/bg-lazyload.js"></script>
     </body>
