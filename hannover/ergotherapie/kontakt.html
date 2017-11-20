@@ -10,7 +10,7 @@
 <meta http-equiv="cache-control" content="Public">
 <meta http-equiv="expires" content="600">
 <meta name="format-detection" content="telephone=yes">
-<meta name="description" content="humaxis - Humaxis - Praxis für Ergotherapie, Prävention, Behandlung und Beratung in der Sallstraße, Hannover Südstadt. Wir bieten Ergotherapie bei Kindern und Erwachsenen sowie Entwicklungs- und Lerntherapie nach PäPKi®, Baby- und Zusatzangebote, Schmerzbehandlung, Narbenbehandlung, Computergestütztes Hirnleistungstraining. Kontakt - - Vielen Dank! - - Wir werden uns umgehend bei Ihnen melden. -">
+<meta name="description" content="humaxis - Humaxis - Praxis für Ergotherapie, Prävention, Behandlung und Beratung in der Sallstraße, Hannover Südstadt. Wir bieten Ergotherapie bei Kindern und Erwachsenen sowie Entwicklungs- und Lerntherapie nach PäPKi®, Baby- und Zusatzangebote, Schmerzbehandlung, Narbenbehandlung, Computergestütztes Hirnleistungstraining. Kontakt - - - - - - - Name - - - - - - E-Mail - - - - - - Telefon - - - - - - Anliegen - - - - - - Telefon - - - - - - - Abschicken - - - -">
 <meta name="keywords" content="Ergo, Therapie, Ergotherapie, Hannover, Südstadt, Sallstraße, Babys, Kinder, Erwachsene, Beratung, Behandlung, Prävention, Humaxis, Praxis, Entwicklungs- und Lerntherapie, PäPKi®, Schmerzbehandlung, Narbenbehandlung, Computergestütztes Hirnleistungstraining">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/ld+json">
@@ -90,7 +90,7 @@
 	"@type": "ListItem",
 	"position": 2,
 	"item": {
-		"@id": "http://www.humaxis.de/contact-thanks",
+		"@id": "http://www.humaxis.de/hannover/ergotherapie/kontakt",
 		"name": "Kontakt"
 	}
 }
@@ -156,11 +156,48 @@
 
 <div id="page-content">
     
-    <h1 id="kontakt">Kontakt</h1>
+    <h1 id="i-classfa-fa-envelope-aria-hiddentrueikontakt"><i class="fa fa-envelope" aria-hidden="true"></i>Kontakt</h1>
 
-<p>Vielen Dank!</p>
-
-<p>Wir werden uns umgehend bei Ihnen melden.</p>
+<form action="https://formspree.io/info@humaxis.de" method="POST">
+	<input type="hidden" name="_next" value="http://www.humaxis.de/contact-thanks" />
+	<input type="hidden" name="_subject" value="Kontaktforumlar" />
+	<input type="hidden" name="_format" value="plain" />
+	<div class="row">
+		<label for="form_name">Name</label>
+		<div class="input">
+			<input type="text" id="form_name" name="name" placeholder="Wie ist Ihr Name?" required="true" />
+		</div>
+	</div>
+	<div class="row">
+		<label for="form_email">E-Mail</label>
+		<div class="input">
+			<input type="email" id="form_email" name="email" placeholder="Wie können wir Sie per E-Mail erreichen?" required="true" />
+		</div>
+	</div>
+	<div class="row">
+		<label for="form_telefon">Telefon</label>
+		<div class="input">
+			<input type="text" id="form_telefon" name="telefon" placeholder="Wie können wir Sie telefonisch erreichen?" />
+		</div>
+	</div>
+	<div class="row textarea">
+		<label for="form_anliegen">Anliegen</label>
+		<div class="input">
+			<textarea id="form_anliegen" name="anliegen" placeholder="Was können wir für Sie tun?"></textarea>
+		</div>
+	</div>
+	<div class="row gotcha">
+		<label for="form_gotcha">Telefon</label>
+		<div class="input">
+			<input type="text" id="form_gotcha" name="_gotcha" />
+		</div>
+	</div>
+	<div class="row">
+		<div class="input">
+			<button type="submit">Abschicken</button>
+		</div>
+	</div>
+</form>
 
     <div style="clear: both;"></div>
 </div>
