@@ -24,7 +24,6 @@ a:active, a:link, a:visited, a:hover {
 }
 
 h1, h2, h3 {
-    font-weight: bold;
     padding-top: 5px;
     margin-bottom: 0px;
     color: #6d0000;
@@ -49,7 +48,7 @@ h3 {
     font-size: 12px;
 }
 
-#page-brackground {
+#page-background {
     position: fixed;
     bottom: 0;
     top: 0;
@@ -60,7 +59,7 @@ h3 {
     background-position: center center;
 }
 
-#sun-brackground {
+#sun-background {
     position: fixed;
     top: 0;
     left: 0;
@@ -173,12 +172,10 @@ h3 {
 
 #header-content em {
     font-style: inherit;
-    font-weight: bold;
 }
 
 #header-content .phone {
     font-size: 25px;
-    font-weight: bold;
 }
 
 #page-content {
@@ -240,7 +237,6 @@ nav.tabs li {
     flex: 1;
     border: 1px solid #6d0000;
     height: 33px;
-    font-weight: normal;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
